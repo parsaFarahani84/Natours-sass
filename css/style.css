@@ -29,4 +29,40 @@ body {
   background-size: cover;
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+  position: relative;
+}
+
+.logo-box {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.logo {
+  height: 35px;
+}
+
+.heading-primery {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.heading-primery-main {
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 35px;
+  display: block;
+}
+
+.heading-primery-sub {
+  font-size: 20px;
+  letter-spacing: 17.5px;
+  display: block;
+}
+
+.text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
