@@ -13,13 +13,17 @@ Dark green: #28b485
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 1.7;
   color: #777;
-  padding: 25px;
+  padding: 2.5rem;
 }
 
 .header {
@@ -34,29 +38,29 @@ body {
 
 .logo-box {
   position: absolute;
-  top: 40px;
-  left: 40px;
+  top: 4rem;
+  left: 4rem;
 }
 
 .logo {
-  height: 35px;
+  height: 3.5rem;
 }
 
 .heading-primery {
   color: #fff;
   text-transform: uppercase;
-  margin-bottom: 60px;
+  margin-bottom: 6rem;
 }
 
 .heading-primery-main {
-  font-size: 60px;
+  font-size: 6rem;
   font-weight: 400;
-  letter-spacing: 35px;
+  letter-spacing: 3.5rem;
   display: block;
 }
 
 .heading-primery-sub {
-  font-size: 20px;
+  font-size: 2rem;
   letter-spacing: 17.5px;
   display: block;
 }
@@ -73,11 +77,12 @@ body {
 .btn:visited {
   text-decoration: none;
   text-transform: uppercase;
-  padding: 15px 40px;
+  padding: 1.5rem 4rem;
   display: inline-block;
-  border-radius: 100px;
+  border-radius: 10rem;
   transition: all 0.3s;
   position: relative;
+  font-size: 1.6rem;
 }
 
 .btn-white {
@@ -128,17 +133,6 @@ body {
     transform: translateY(0);
   }
 }
-/* @keyframes moveInBottom {
-  0% {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-} */
 
 .btn-animated {
   animation: moveInBottom 0.5s ease-out 0.75s;
