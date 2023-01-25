@@ -39,13 +39,13 @@ body {
   position: relative;
 }
 
-.logo-box {
+.header__logo-box {
   position: absolute;
   top: 4rem;
   left: 4rem;
 }
 
-.logo {
+.header__logo {
   height: 3.5rem;
 }
 
@@ -55,20 +55,20 @@ body {
   margin-bottom: 6rem;
 }
 
-.heading-primery-main {
+.heading-primery--main {
   font-size: 6rem;
   font-weight: 400;
   letter-spacing: 3.5rem;
   display: block;
 }
 
-.heading-primery-sub {
+.heading-primery--sub {
   font-size: 2rem;
   letter-spacing: 17.5px;
   display: block;
 }
 
-.text-box {
+.header__text-box {
   position: absolute;
   top: 40%;
   left: 50%;
@@ -88,7 +88,7 @@ body {
   font-size: 1.6rem;
 }
 
-.btn-white {
+.btn--white {
   background-color: #fff;
   color: #777;
 }
@@ -121,7 +121,7 @@ body {
   opacity: 0;
 }
 
-.btn-white::after {
+.btn--white::after {
   background-color: #fff;
 }
 
@@ -137,7 +137,7 @@ body {
   }
 }
 
-.btn-animated {
+.btn--animated {
   animation: moveInBottom 0.5s ease-out 0.75s;
   animation-fill-mode: backwards;
 }
