@@ -8,15 +8,15 @@ Dark green: #28b485
 */
 
 // ------------IMPORTS--------------
+@import "abstracts/variables";
 @import "base/base";
 @import "base/animations";
 @import "base/typography";
-@import "base/utilities";
 @import "pages/home";
+@import "base/utilities";
 @import "components/button";
 @import "abstracts/functions";
 @import "abstracts/mixins";
-@import "abstracts/variables";
 @import "layout/header";
 @import "layout/grid.scss";
 *,

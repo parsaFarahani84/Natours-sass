@@ -1,50 +1,50 @@
-.row {
-  width: $grid-width;
-  background-color: #eee;
-  margin: 0 auto;
-  display: block;
+// .row {
+//   width: $grid-width;
+//   background-color: #eee;
+//   margin: 0 auto;
+//   display: block;
 
-  &:not(:last-child) {
-    margin-bottom: $grid-vertical;
-  }
+//   &:not(:last-child) {
+//     margin-bottom: $grid-vertical;
+//   }
 
-  @include clearfix;
+//   @include clearfix;
 
-  [class^="col-"] {
-    background-color: orangered;
-    float: left;
-    &:not(:last-child) {
-      margin-right: $grid-horizontal;
-    }
-  }
+//   [class^="col-"] {
+//     background-color: orangered;
+//     float: left;
+//     &:not(:last-child) {
+//       margin-right: $grid-horizontal;
+//     }
+//   }
 
-  .col-1-of-2 {
-    width: calc((100% - #{$grid-horizontal}) / 2);
-  }
+//   .col-1-of-2 {
+//     width: calc((100% - #{$grid-horizontal}) / 2);
+//   }
 
-  .col-1-of-3 {
-    width: calc((100% - 2 * #{$grid-horizontal}) / 3);
-  }
+//   .col-1-of-3 {
+//     width: calc((100% - 2 * #{$grid-horizontal}) / 3);
+//   }
 
-  .col-2-of-3 {
-    width: calc(
-      2 * ((100% - 2 * #{$grid-horizontal}) / 3) + #{$grid-horizontal}
-    );
-  }
+//   .col-2-of-3 {
+//     width: calc(
+//       2 * ((100% - 2 * #{$grid-horizontal}) / 3) + 2 *#{$grid-horizontal}
+//     );
+//   }
 
-  .col-1-of-4 {
-    width: calc((100% - 3 * #{$grid-horizontal}) / 4);
-  }
+//   .col-1-of-4 {
+//     width: calc((100% - 3 * #{$grid-horizontal}) / 4);
+//   }
 
-  .col-2-of-4 {
-    width: calc(
-      2 * ((100% - 3 *#{$grid-horizontal}) / 4) + #{$grid-horizontal}
-    );
-  }
+//   .col-2-of-4 {
+//     width: calc(
+//       2 * ((100% - 3 *#{$grid-horizontal}) / 4) + #{$grid-horizontal}
+//     );
+//   }
 
-  .col-3-of-4 {
-    width: calc(
-      3 * ((100% - 3 *#{$grid-horizontal}) / 4) + 2 *#{$grid-horizontal}
-    );
-  }
-}
+//   .col-3-of-4 {
+//     width: calc(
+//       3 * ((100% - 3 *#{$grid-horizontal}) / 4) + 2 *#{$grid-horizontal}
+//     );
+//   }
+// }
