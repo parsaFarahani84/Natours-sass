@@ -3,3 +3,23 @@
   padding: 25rem 0;
   margin-top: -23vh;
 }
+
+.heading-secondary {
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    to right,
+    $color-primary-light,
+    $color-primary-dark
+  );
+  -webkit-background-clip: text;
+  display: inline-block;
+  color: transparent;
+  transition: all 0.4s;
+
+  &:hover {
+    transform: skewX(2deg) skewY(2deg) scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba(#000, 0.2);
+  }
+}
