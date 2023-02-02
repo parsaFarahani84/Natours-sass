@@ -49,6 +49,9 @@ Dark green: #28b485
 .u-center-text {
   text-align: center; }
 
+.u-margin-bottom-8 {
+  margin-bottom: 80px; }
+
 .btn:link,
 .btn:visited {
   text-decoration: none;
@@ -116,7 +119,6 @@ Dark green: #28b485
 
 .row {
   width: 114rem;
-  background-color: #eee;
   margin: 0 auto;
   display: block; }
   .row:not(:last-child) {
@@ -126,7 +128,6 @@ Dark green: #28b485
     display: table;
     clear: both; }
   .row [class^="col-"] {
-    background-color: orangered;
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
