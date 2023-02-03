@@ -7,7 +7,7 @@
   border-radius: 10rem;
   transition: all 0.3s;
   position: relative;
-  font-size: 1.6rem;
+  font-size: $default-font-size;
 
   &:hover {
     transform: translateY(-3px);
@@ -50,4 +50,29 @@
 .btn--animated {
   animation: moveInBottom 0.5s ease-out 0.75s;
   animation-fill-mode: backwards;
+}
+
+.btn-text {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    color: $color-primery;
+    display: inline-block;
+    padding: 3px;
+    border-bottom: 1px solid $color-primery;
+    font-size: $default-font-size;
+    transition: all 0.3s;
+  }
+
+  &:hover {
+    background-color: $color-primery;
+    color: $color-grey-light-1;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transform: translateY(0);
+  }
 }
