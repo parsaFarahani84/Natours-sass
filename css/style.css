@@ -6,6 +6,23 @@ Medium green: #55c57a
 Dark green: #28b485
 
 */
+.composition {
+  position: relative; }
+  .composition__photo {
+    width: 55%;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+    position: absolute; }
+  .composition__photo--1 {
+    left: 0;
+    top: -2rem; }
+  .composition__photo--2 {
+    right: 0;
+    top: 2rem; }
+  .composition__photo--3 {
+    left: 20%;
+    top: 10rem; }
+
 @keyframes moveInBottom {
   0% {
     opacity: 0;

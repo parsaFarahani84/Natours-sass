@@ -1,4 +1,22 @@
 .composition {
+  position: relative;
   &__photo {
+    width: 55%;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+    position: absolute;
+  }
+
+  &__photo--1 {
+    left: 0;
+    top: -2rem;
+  }
+  &__photo--2 {
+    right: 0;
+    top: 2rem;
+  }
+  &__photo--3 {
+    left: 20%;
+    top: 10rem;
   }
 }
