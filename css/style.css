@@ -80,8 +80,13 @@ Dark green: #28b485
 
 .section-about {
   background-color: #f6f6f6;
-  padding: 25rem 0;
+  padding: 25rem 0 15rem 0;
   margin-top: -23vh; }
+
+.section-features {
+  padding: 20rem 0;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../../img/nat-4.jpg);
+  background-size: cover; }
 
 .u-center-text {
   text-align: center; }
