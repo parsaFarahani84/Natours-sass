@@ -18,9 +18,11 @@ Dark green: #28b485
     z-index: 10; }
     .composition__photo:hover {
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.4);
-      outline: 1.5rem solid #55c57a;
+      outline: 1.2rem solid #55c57a;
       z-index: 20;
-      transform: scale(1.1); }
+      transform: scale(1.1) translateY(-0.5rem) !important; }
+  .composition:hover .composition__photo:not(:hover) {
+    transform: scale(0.95); }
   .composition__photo--1 {
     left: 0;
     top: -2rem; }
