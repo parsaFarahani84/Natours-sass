@@ -12,7 +12,15 @@ Dark green: #28b485
     width: 55%;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
     border-radius: 2px;
-    position: absolute; }
+    position: absolute;
+    transition: all 0.2s;
+    outline-offset: 1.5rem;
+    z-index: 10; }
+    .composition__photo:hover {
+      box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.4);
+      outline: 1.5rem solid #55c57a;
+      z-index: 20;
+      transform: scale(1.1); }
   .composition__photo--1 {
     left: 0;
     top: -2rem; }
