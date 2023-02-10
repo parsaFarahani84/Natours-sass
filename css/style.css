@@ -106,7 +106,8 @@ Dark green: #28b485
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
   background-size: cover;
   transform: skewY(-5deg);
-  margin-top: -5rem; }
+  margin-top: -5rem;
+  margin-bottom: 15rem; }
   .section-features > * {
     transform: skewY(5deg); }
 
