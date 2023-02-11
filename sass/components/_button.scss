@@ -39,11 +39,20 @@
 }
 
 .btn--white {
-  background-color: #fff;
+  background-color: $color-white;
   color: #777;
 
   &::after {
-    background-color: #fff;
+    background-color: $color-white;
+  }
+}
+
+.btn--green {
+  background-color: $color-primery;
+  color: $color-white;
+
+  &::after {
+    background-color: $color-primery;
   }
 }
 
