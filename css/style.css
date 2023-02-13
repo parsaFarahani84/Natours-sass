@@ -40,7 +40,7 @@ Dark green: #28b485
   background-color: #fff;
   border-radius: 3px;
   padding: 9rem;
-  transform: skewX(12deg); }
+  transform: skewX(-12deg); }
   .story__shape {
     width: 15rem;
     height: 15rem;
@@ -48,12 +48,34 @@ Dark green: #28b485
     float: left;
     shape-outside: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
-    transform: translateX(-3rem);
-    transform: skewX(-12deg); }
+    transform: translateX(-4rem) skewX(12deg);
+    position: relative; }
   .story__text {
-    transform: skewX(-12deg); }
+    transform: skewX(12deg); }
   .story__img {
-    height: 100%; }
+    height: 100%;
+    transform: translateX(-4rem);
+    transform: scale(1.3) translateX(-3rem);
+    transition: all 0.5s;
+    backface-visibility: hidden; }
+  .story__caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    color: #fff;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all 0.5s;
+    opacity: 0;
+    backface-visibility: hidden; }
+  .story:hover .story__caption {
+    opacity: 1;
+    transform: translate(-50%, -50%); }
+  .story:hover .story__img {
+    transform: translateX(-4rem) scale(1);
+    filter: blur(3px) brightness(80%); }
 
 .feature-box {
   padding: 2.5rem;
