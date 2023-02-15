@@ -109,6 +109,14 @@ Dark green: #28b485
     height: 100%;
     object-fit: cover; }
 
+.form__input {
+  font-size: 1.5rem;
+  font-family: inherit;
+  padding: 1.5rem 2rem;
+  border-radius: 3px;
+  border: none;
+  background-color: #fff; }
+
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
@@ -266,6 +274,21 @@ Dark green: #28b485
 .section-stories {
   padding: 10rem 0;
   position: relative; }
+
+.section-book {
+  padding: 15rem 0;
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
+
+.book {
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  height: 50rem; }
+  .book__form {
+    width: 50%;
+    padding: 6rem; }
 
 .u-center-text {
   text-align: center; }
