@@ -110,7 +110,7 @@ Dark green: #28b485
     object-fit: cover; }
 
 .form__group:not(:last-child) {
-  margin-bottom: 5rem; }
+  margin-bottom: 2rem; }
 
 .form__input {
   font-size: 1.5rem;
@@ -121,17 +121,19 @@ Dark green: #28b485
   border: none;
   background-color: #fff;
   box-shadow: 0 1rem 2rem transparent;
+  border-bottom: 3px solid transparent;
   width: 90%;
   display: block;
-  transition: all 0.1s; }
-  .form__input::-webkit-input-placeholder {
-    color: #999; }
+  transition: all 0.3s; }
   .form__input:focus {
     outline: none;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
-    border-bottom: 3px solid #55c57a; }
+    border-bottom: 3px solid #55c57a;
+    backface-visibility: hidden; }
   .form__input:focus:invalid {
     border-bottom: 3px solid #ff7730; }
+  .form__input::-webkit-input-placeholder {
+    color: #999; }
 
 .form__label {
   font-size: 1.2rem;
@@ -145,6 +147,14 @@ Dark green: #28b485
   opacity: 0;
   visibility: hidden;
   transform: translateY(-4rem); }
+
+.form__radio-group {
+  width: 49%;
+  display: inline-block; }
+
+.form__radio-label {
+  font-size: 1.6rem;
+  cursor: pointer; }
 
 .card {
   perspective: 150rem;
