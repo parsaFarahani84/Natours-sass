@@ -139,7 +139,12 @@ Dark green: #28b485
   margin-top: 0.7rem;
   margin-left: 2rem;
   display: block;
-  transform: translateY(-1rem); }
+  transition: all 0.3s; }
+
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4rem); }
 
 .card {
   perspective: 150rem;
